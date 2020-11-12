@@ -23,4 +23,4 @@ For the rest of us:
 ### "Screenshots"
 
 At least you get to see my desk (again)!
-![bruh moment]()
+![bruh moment](https://cdn.discordapp.com/attachments/767172954395639811/776250037550055426/IMG_20201111_170001.jpg)
