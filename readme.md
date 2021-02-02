@@ -24,9 +24,9 @@ For the rest of us:
 5. Select it form the list and hit Save in the top left
 6. Reboot
 
-## "Screenshots"
+## Gallery
 
-At least you get to see my desk!
+> +1 for the sexy desk setup
 
 ![GRUB with Rosé Pine](https://cdn.discordapp.com/attachments/767172954395639811/776250037550055426/IMG_20201111_170001.jpg)
 
