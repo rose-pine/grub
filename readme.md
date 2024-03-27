@@ -11,18 +11,69 @@
     </a>
 </p>
 
-## Usage
+## Installation
 
-If you're gonna do it from the CLI, have fun. I'm sure you wouldn't need instructions at that point.
+Download `rose-pine-grub.tar.gz` from the releases tab, and:
 
-For the rest of us: 
+### Manually
 
-1. Download the `rose-pine-grub.tar.gz` from the releases tab
-2. Launch [grub-customizer](https://pkgs.org/download/grub-customizer)
-3. Navigate to appearance settings
-4. Go to theme and hit the plus button, and select `rose-pine-grub.tar.gz`
-5. Select it form the list and hit Save in the top left
-6. Reboot
+Extract the tarball:
+
+```sh
+tar -xvf rose-pine-grub.tar.gz
+```
+
+Move the `rose-pine-grub` folder into the `/boot/grub/themes/` directory:
+
+```sh
+sudo mv rose-pine-grub /boot/grub/themes
+```
+
+If the `themes` directory doesn't exist, create it.
+
+I recommend making a backup of your GRUB config now just in case:
+
+```sh
+sudo cp /etc/default/grub /etc/default/grub.bak
+```
+
+Now edit your GRUB config (`sudoedit` is recommended to avoid giving your text
+editor root permissions):
+
+```sh
+sudoedit /etc/default/grub
+```
+
+Find the line with `GRUB_THEME=`. If it is commented out, uncomment it. If it
+doesn't exist, add a line to your GRUB config, and set your `GRUB_THEME` line
+to the following:
+
+```conf
+GRUB_THEME="/boot/grub/themes/rose-pine-grub/theme.txt"
+```
+
+Optionally, you can set the `GRUB_GFXMODE` setting for the theme to display at
+your native screen resolution.
+
+Now you need to update your GRUB config:
+
+```sh
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+```
+
+On Debian-based distros, the following wrapper exists for this command:
+
+```sh
+sudo update-grub
+```
+
+### With grub-customizer
+
+1. Launch [grub-customizer](https://pkgs.org/download/grub-customizer)
+2. Navigate to appearance settings
+3. Go to theme and hit the plus button, and select `rose-pine-grub.tar.gz`
+4. Select it form the list and hit Save in the top left
+5. Reboot
 
 ## Gallery
 
