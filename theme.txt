@@ -52,3 +52,75 @@ terminal-font: "Gnu Unifont Mono Regular 16"
   # text = "@TIMEOUT_NOTIFICATION_LONG@"
 }
 
++ label {
+  font = "Roboto Regular 30"
+  left = 0%
+  top = 100%-85
+  width = 13%-5
+  color = "$rose"
+  align = "right"
+  text = "↑↓"
+}
++ label {
+  font = "Roboto Regular 30"
+  left = 13%+5
+  top = 100%-85
+  color = "$text"
+  align = "left"
+  text = "Select"
+}
+
++ label {
+  font = "Roboto Regular 30"
+  left = 25%
+  top = 100%-85
+  width = 10%-5
+  color = "$rose"
+  align = "right"
+  text = "Enter"
+}
++ label {
+  font = "Roboto Regular 30"
+  left = 35%+5
+  top = 100%-85
+  color = "$text"
+  align = "left"
+  text = "Boot"
+}
+
++ label {
+  font = "Roboto Regular 30"
+  left = 48%
+  top = 100%-85
+  width = 10%-5
+  color = "$rose"
+  align = "right"
+  text = "E"
+}
++ label {
+  font = "Roboto Regular 30"
+  left = 58%+5
+  top = 100%-85
+  color = "$text"
+  align = "left"
+  text = "Options"
+}
+
++ label {
+  font = "Roboto Regular 30"
+  left = 70%
+  top = 100%-85
+  width = 10%-5
+  color = "$rose"
+  align = "right"
+  text = "C"
+}
++ label {
+  font = "Roboto Regular 30"
+  left = 80%+5
+  top = 100%-85
+  color = "$text"
+  align = "left"
+  text = "Command Line"
+}
+
