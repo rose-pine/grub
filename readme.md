@@ -79,8 +79,10 @@ sudo update-grub
 
 > +1 for the sexy desk setup
 
-![GRUB with Rosé Pine](https://cdn.discordapp.com/attachments/767172954395639811/776250037550055426/IMG_20201111_170001.jpg)
+![GRUB with Rosé Pine](./screenshots/menu.png)
 
-## Thanks to 
+[Screencast](./screenshots/screencast.webm)
+
+## Thanks to
 
 - [ThatOneCalculator](https://github.com/thatonecalculator)
